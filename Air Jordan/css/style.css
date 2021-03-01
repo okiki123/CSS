@@ -308,6 +308,10 @@ section .details .product-btn-price h1.price {
     letter-spacing: 0.1em;
 }
 
+.topRight{
+    display: flex;
+    align-items: center;
+}
 
 
 
