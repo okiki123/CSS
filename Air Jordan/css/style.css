@@ -318,3 +318,10 @@ section .details .product-btn-price h1.price {
     top: 0;
     z-index: 999;
   }
+
+  .logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    cursor: pointer;
+  }
