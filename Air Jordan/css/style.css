@@ -329,3 +329,11 @@ section .details .product-btn-price h1.price {
     justify-content: center;
     font-size: 10px;
 }
+
+.topbarIconContainer {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+  }
+  
