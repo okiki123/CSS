@@ -76,3 +76,60 @@ header ul.seperate li:nth-child(3) a span{
     border-radius: 50px;
     font-size: 0.7em;
 }
+
+
+/* #########################################################  */
+
+section {
+    padding: 8em 03m 12em 0em;
+}
+
+section .display {
+    height: 360px;
+    position: relative;
+    font-family: 'Gothan';
+    color: #fff;
+    font-style: italic;
+}
+
+
+section .display h1 {
+    text-transform: uppercase;
+    font-size: 8.2rem;
+    font-weight: 800;
+    letter-spacing: 6px;
+    float: right;
+}
+
+section .display h1::before {
+    content: "/";
+    font-size: 0.15em;
+    position: absolute;
+    top: 0.8em;
+    left: 4.5em;
+}
+
+section .display h1::after {
+    content: "/";
+    font-size: 0.15em;
+    position: absolute;
+    bottom: 4.3em;
+    right: 0.7em;
+}
+
+section .display h2 {
+    float: right;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 0.3em;
+    right: 1.5em;
+}
+
+section .display img {
+    position: absolute;
+    bottom: 2em;
+    right: 1em;
+    height: 20em;
+    transform: rotate(-20deg);
+}
