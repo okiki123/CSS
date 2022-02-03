@@ -133,3 +133,46 @@ section .display img {
     height: 20em;
     transform: rotate(-20deg);
 }
+
+
+/* ############################################################## */
+
+section .details {
+    position: relative;
+}
+
+section .details .brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+
+section .details .brand .brand-name h1 {
+    text-transform: uppercase;
+    padding-right: 20px;
+    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+section .details .brand .rating ul li {
+   float: left;
+   list-style: none;
+   color: yellow;
+   margin-right: 3px;
+   font-size: 1.3em;
+}
+
+section .details .brand .rating ul li:last-child {
+    color: #fff;
+}
+
+section .details .product-details {
+    width: 90%;
+}
+
+section .details .product-details .category {
+      margin-bottom: 10px;
+}
