@@ -139,6 +139,7 @@ section .display img {
 
 section .details {
     position: relative;
+    left: 10%;
 }
 
 section .details .brand {
@@ -176,3 +177,134 @@ section .details .product-details {
 section .details .product-details .category {
       margin-bottom: 10px;
 }
+
+section .details .product-details .category a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 00.7em;
+    text-decoration: none;
+    display: block;
+    font-family: 'Mada', sans-serif;
+}
+
+section .details .product-details .product-name h2 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section .details .product-details .product-description p {
+   color: #fff;
+   font-size: 0.8em;
+   margin-bottom: 15px;
+   font-family: 'Mada', sans-serif;
+   line-height: 1.3em;
+   width: 80%;
+}
+
+section .details .product-details .product-description ul {
+    padding-left: 15px;
+    margin-bottom: 1em;
+}
+
+section .details .product-details .product-description ul li {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 0.8em;
+    font-family: 'Mada', sans-serif;
+    line-height: 1.5em;
+}
+
+section .details .product-details .product-description a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+section .details .product-size-select {
+    position: relative;
+    margin: 20px 0px;
+}
+
+section .details .product-size-select i {
+    color: yellow;
+    font-size: 1em;
+}
+
+section .details .product-size-select select {
+    padding: 10px;
+    border: none;
+    -webkit-appearance: listbox;
+    width: 100px;
+    background: none;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+}
+
+
+section .details .product-size-select select option {
+    color: #fe2d3b;
+    font-weight: 500;
+}
+
+section .details .product-btn-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section .details .product-btn-price button{
+    margin-right: 40px;
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 0.5em;
+    letter-spacing: 0.3em;
+    cursor: pointer;
+}
+
+section .details .product-btn-price h1.price {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    letter-spacing: 0.1em;
+}
+
+
+.foot {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.foot img  {
+    height: 600px;
+    position: relative;
+    top: 17em;
+}
+
+.foot h1 {
+    float: right;
+    position: relative;
+    top: 16.5em;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+}
+
