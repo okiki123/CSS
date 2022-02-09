@@ -28,8 +28,11 @@ body {
     background-position: top;
 }
 
-.input label {
+.input input {
+    font: inherit;
     display: block;
-    font-weight: bold;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
     margin-bottom: 0.5rem;
   }
