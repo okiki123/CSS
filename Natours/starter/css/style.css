@@ -39,10 +39,5 @@ body {
   border-radius: 30px;
 }
 
-.button:hover,
-.button:active {
-  background: #741188;
-  border-color: #741188;
-}
 
 
