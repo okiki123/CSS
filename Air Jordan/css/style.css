@@ -307,10 +307,3 @@ section .details .product-btn-price h1.price {
     font-size: 2em;
     letter-spacing: 0.1em;
 }
-
-.topAvatar{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-}
