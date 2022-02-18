@@ -51,6 +51,11 @@ body {
   color: rgb(187, 186, 186);
 }
 
+.sidebarList {
+  list-style: none;
+  padding: 5px;
+}
+
 
 
 
