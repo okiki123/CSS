@@ -46,6 +46,12 @@ body {
   justify-content: space-between;
 }
 
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: darkblue;
+  cursor: pointer;
+}
 
 
 
