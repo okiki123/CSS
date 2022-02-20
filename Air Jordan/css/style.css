@@ -321,4 +321,10 @@ section .details .product-btn-price h1.price {
     font-weight: 600;
   }
 
-  
+  .widgetLgImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
