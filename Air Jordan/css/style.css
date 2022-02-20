@@ -315,6 +315,10 @@ section .details .product-btn-price h1.price {
 
 
   
-  
+.widgetLgUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
 
   
