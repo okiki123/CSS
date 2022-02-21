@@ -320,6 +320,10 @@ section .details .product-btn-price h1.price {
     padding: 20px;
   }
   
+  .widgetLgTitle {
+    font-size: 22px;
+    font-weight: 600;
+  }
 
 
   
