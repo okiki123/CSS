@@ -330,5 +330,9 @@ section .details .product-btn-price h1.price {
     border-spacing: 20px;
   }
 
+  .widgetLgTh{
+    text-align: left;
+  }
+
 
   
