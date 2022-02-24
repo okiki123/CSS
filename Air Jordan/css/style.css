@@ -317,3 +317,9 @@ section .details .product-btn-price h1.price {
     font-size: 15px;
     color: gray;
 }
+
+.featuredIcon{
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
