@@ -313,3 +313,7 @@ section .details .product-btn-price h1.price {
     align-items: center;
 }
 
+.featuredSub{
+    font-size: 15px;
+    color: gray;
+}
