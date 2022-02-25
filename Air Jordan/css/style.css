@@ -322,3 +322,11 @@ section .details .product-btn-price h1.price {
     z-index: 999;
   }
 
+  .topbarWrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
