@@ -337,3 +337,8 @@ section .details .product-btn-price h1.price {
     cursor: pointer;
   }
 
+  .topRight{
+    display: flex;
+    align-items: center;
+}
+
