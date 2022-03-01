@@ -313,7 +313,11 @@ section .details .product-btn-price h1.price {
     align-items: center;
 }
 
-
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 
   
   
