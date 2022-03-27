@@ -37,6 +37,8 @@ div a {
     border-radius: 5px;
 }
 
-
-  
-  
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
