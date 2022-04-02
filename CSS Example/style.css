@@ -53,3 +53,8 @@ div a {
     width: 100%;
     border-spacing: 20px;
   }
+  .widgetLgUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
