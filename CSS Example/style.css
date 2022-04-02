@@ -45,3 +45,7 @@ div a {
     padding: 20px;
   }
 
+  .widgetLgTitle {
+    font-size: 22px;
+    font-weight: 600;
+  }
